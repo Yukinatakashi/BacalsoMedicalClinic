@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 
-const API = 'http://localhost:3000'; // ⚠️ Replace with Render API URL on deploy
+const API = 'https://bacalsomedicalclinic.onrender.com'; // ⚠️ Replace with Render API URL on deploy
 
 export default function Crud() {
   const [students, setStudents] = useState([]);
